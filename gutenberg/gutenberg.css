@@ -6,10 +6,11 @@
 */
 
 body {
-  background: moccasin;
+  background: oldlace;
   margin-left: 25%;
   margin-right: 25%;
   text-align: justify;
+  color: saddlebrown;
 }
 
 h1,
@@ -25,29 +26,6 @@ h5 {
   margin-bottom: 1em;
 }
 
-h1 {
-  font-size: 300%;
-  margin-top: 0.6em;
-  margin-bottom: 0.6em;
-  letter-spacing: 0.12em;
-  text-indent: 0em;
-}
-h2 {
-  font-size: 175%;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-h3 {
-  font-size: 150%;
-  margin-top: 2em;
-}
-h4 {
-  font-size: 120%;
-}
-h5 {
-  font-size: 110%;
-}
-
 hr {
   width: 80%;
   margin-top: 2em;
@@ -60,9 +38,8 @@ div.chapter {
 }
 
 p {
-  /* text-indent: 2em; */
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   font-size: 1.25rem;
   line-height: 1.5em;
 }
@@ -109,6 +86,7 @@ div.fig {
   display: block;
   margin: 0 auto;
   text-align: center;
+  font-weight: bold;
 }
 
 a:link {
