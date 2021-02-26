@@ -6,8 +6,9 @@
 */
 
 body {
-  margin-left: 20%;
-  margin-right: 20%;
+  background: moccasin;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: justify;
 }
 
@@ -16,12 +17,12 @@ h2,
 h3,
 h4,
 h5 {
-  text-align: center;
+  text-align: left;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.5;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 h1 {
@@ -29,7 +30,6 @@ h1 {
   margin-top: 0.6em;
   margin-bottom: 0.6em;
   letter-spacing: 0.12em;
-  word-spacing: 0.2em;
   text-indent: 0em;
 }
 h2 {
@@ -60,9 +60,11 @@ div.chapter {
 }
 
 p {
-  text-indent: 1em;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+  /* text-indent: 2em; */
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.25rem;
+  line-height: 1.5em;
 }
 
 .p2 {
@@ -114,9 +116,9 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: blue;
+  color: purple;
   text-decoration: none;
 }
 a:hover {
-  color: red;
+  color: green;
 }

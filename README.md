@@ -1,5 +1,11 @@
-Assignment: CSS Hell
-====================
+# Modifications to Project Gutenberg HTML Files
+
+I commented-out the `<style>` tag in each of the gutenberg html files, and replaced<br>
+`<link href="./gutenberg.css" type="text/css" rel="stylesheet">`.<br>
+
+My `gutenberg.css` is a modified copy of the css that was initially in the Sherlock Holmes HTML file.
+
+# Assignment: CSS Hell
 
 You will skin 3 project gutenberg stories with custom CSS.
 
@@ -12,13 +18,10 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
-License/Copyright
-=================
+# License/Copyright
 
 Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
-
-
